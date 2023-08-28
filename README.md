@@ -37,6 +37,10 @@ Este projeto é uma recriação educacional e de portfólio da interface de logi
 - `styles/main.css`: Folha de estilos CSS para estilização da página.
 - `assets/`: Diretório contendo imagens utilizadas no projeto.
 
+## Hospedagem
+
+O projeto está hospedado no Vercel. Você pode acessá-lo [aqui](https://threads-login-section.vercel.app/).
+
 ## Aviso Legal
 
 Este projeto é uma recriação educacional e de portfólio, não associada ao Threads. Não coleta dados pessoais nem visa uso malicioso. Para obter mais informações sobre os Termos de Uso e Política de Privacidade do Threads, consulte os links fornecidos no rodapé da página.
