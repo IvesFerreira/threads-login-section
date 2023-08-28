@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "system-ui", Roboto, Helvetica, Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #101010;
+  color: #fefefe;
+
+  header {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+
+    img {
+      width: 150%;
+      max-width: 150%;
+      max-height: 150%;  
+    }
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20% 0 0 0;
+
+    h3 {
+      font-size: 16px;
+      font-weight: 500;
+      padding: 0 0 16px 0;
+    }
+    
+    input {
+      width: 350px;
+      line-height: 21px;
+      padding: 16px;
+      border-radius: 12px;
+      background-color: #1e1e1e;
+      font-size: 15px;
+      color: #f3f5f7;
+      border: 0;
+      outline: 0;
+
+      input::placeholder {
+        transition: opacity 0.3s;
+        opacity: 1;
+      }
+
+      input:focus::placeholder,
+      input:focus-within::placeholder {
+        opacity: 0;
+      }
+    }
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      line-height: 21px;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 15px;
+      background-color: #ffffff;
+      color: #101010;
+      border: 0;
+      outline: 0;
+
+      img {
+        position: absolute;
+        object-fit: cover;
+        left: 10px;
+      }
+    }
+  }
+}

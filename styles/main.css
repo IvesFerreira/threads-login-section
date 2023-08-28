@@ -1,1 +1,83 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "system-ui", Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #101010;
+  color: #fefefe;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+body header img {
+  width: 150%;
+  max-width: 150%;
+  max-height: 150%;
+}
+body section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20% 0 0 0;
+}
+body section h3 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 0 16px 0;
+}
+body section input {
+  width: 350px;
+  line-height: 21px;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #1e1e1e;
+  font-size: 15px;
+  color: #f3f5f7;
+  border: 0;
+  outline: 0;
+}
+body section input input::-moz-placeholder {
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+body section input input::placeholder {
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+body section input input:focus::-moz-placeholder, body section input input:focus-within::-moz-placeholder {
+  opacity: 0;
+}
+body section input input:focus::placeholder,
+body section input input:focus-within::placeholder {
+  opacity: 0;
+}
+body section button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  line-height: 21px;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #101010;
+  border: 0;
+  outline: 0;
+}
+body section button img {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 10px;
+}/*# sourceMappingURL=main.css.map */
