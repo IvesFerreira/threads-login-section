@@ -27,7 +27,7 @@ body section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20% 0 0 0;
+  margin: 18% 0 0 0;
 }
 body section h3 {
   font-size: 16px;
@@ -35,7 +35,7 @@ body section h3 {
   padding: 0 0 16px 0;
 }
 body section input {
-  width: 350px;
+  width: 380px;
   line-height: 21px;
   padding: 16px;
   border-radius: 12px;
@@ -44,40 +44,86 @@ body section input {
   color: #f3f5f7;
   border: 0;
   outline: 0;
+  margin: 0 0 8px 0;
 }
-body section input input::-moz-placeholder {
+body section input::-moz-placeholder {
   -moz-transition: opacity 0.3s;
   transition: opacity 0.3s;
   opacity: 1;
 }
-body section input input::placeholder {
+body section input::placeholder {
   transition: opacity 0.3s;
   opacity: 1;
 }
-body section input input:focus::-moz-placeholder, body section input input:focus-within::-moz-placeholder {
+body section input:focus::-moz-placeholder, body section input:focus-within::-moz-placeholder {
   opacity: 0;
 }
-body section input input:focus::placeholder,
-body section input input:focus-within::placeholder {
+body section input:focus::placeholder, body section input:focus-within::placeholder {
   opacity: 0;
 }
 body section button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 350px;
+  position: relative;
+  width: 380px;
   line-height: 21px;
   padding: 16px;
   border-radius: 12px;
   font-size: 15px;
   background-color: #ffffff;
-  color: #101010;
+  color: #a1a1a1;
   border: 0;
   outline: 0;
 }
-body section button img {
+body section button #insta-logo {
   position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  left: 10px;
+  left: 16px;
+}
+body section #forget-password {
+  margin: 16px 0 0 0;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #777777;
+}
+body section #qrcode-section {
+  display: flex;
+  align-items: center;
+  margin: 32px 0 0 0;
+}
+body section #qrcode-section p {
+  padding: 0 16px 0 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: #f3f5f7;
+}
+body section #qrcode-section img {
+  background-color: #181818;
+  padding: 4px;
+  border-radius: 16px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+}
+body footer #footer-disclaimer {
+  font-size: 10px;
+}
+body footer #footer-faq {
+  font-size: 12px;
+  color: #777777;
+}
+body footer #footer-faq a {
+  text-decoration: none;
+  color: #777777;
+}
+body footer #footer-faq a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
